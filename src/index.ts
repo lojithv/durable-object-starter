@@ -7,7 +7,7 @@ export class MyDurableObject extends DurableObject<Env> {
 
 	async sayHello(): Promise<string> {
 		let result = this.ctx.storage.sql
-			.exec("SELECT 'Hello, World 123!' as greeting")
+			.exec("SELECT 'Hello, World 123456!' as greeting")
 			.toArray();
 		if (result.length === 0) {
 			console.error("SQL query returned no results");
