@@ -1,0 +1,6 @@
+Make your own small test project that overwrites a state.json and log.json for when you update a prop. The purpose of this project is just to build a couple of clean functions for the interaction with the github.com rest api. We want a function updateFile(owner, repo, branch, path, githubPATtoken, newFile).
+
+making a new DO class file, make that class file commit new versions of files to GitHub using GitHub pat token, and let the automatic update do the rest. Much easier. Will bring more comfort and control
+
+To just get the commit cycle to work, you dont need the full cms201. You can just start with a much simpler HelloWorld-worker project. And just add a pure function that does it. And even hardcode the PAT into the function.
+Once you get the function to commit a simple test.json file into the main branch of GitHub from a worker
